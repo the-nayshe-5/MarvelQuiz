@@ -9,80 +9,99 @@
         
     </div>
 
-    <div class="question">
+    <div class="slab">
         <b><u>Question-1</u></b> <br>
         <br>
         <b>What is the name of the six powerful objects that Thanos seeks to collect in the MCU Infinity Saga?</b>
     </div>
 
-    <div class="options">
-        <p><input type="radio" value="a"> a) The Elemental Crystals</p>
-        <p><input type="radio" value="a"> b) The Cosmic Cubes</p>
-        <p><input type="radio" value="a"> c) The Infinity Stones</p>
-        <p><input type="radio" value="a"> d) The Celestial Orbs</p>
+    <div class="options slab">
+        <p><input type="radio" value="a1" name="q1"> a) The Elemental Crystals</p>
+        <p><input type="radio" value="b1" name="q1"> b) The Cosmic Cubes</p>
+        <p><input type="radio" value="c1" name="q1"> c) The Infinity Stones</p>
+        <p><input type="radio" value="d1" name="q1"> d) The Celestial Orbs</p>
     </div>
 
-    <div class="question">
+    <div class="slab">
         <b><u>Question-2</u></b> <br>
         <br>
         <b>Which movie features the first appearance of the character Thanos in the MCU Infinity Saga?</b>
     </div>
 
-    <div class="options">
-        <p><input type="radio" value="a"> a) Guardians of the Galaxy: Vol.1</p>
-        <p><input type="radio" value="a"> b) Avengers: Age of Ultron</p>
-        <p><input type="radio" value="a"> c) Thor: Ragnarok</p>
-        <p><input type="radio" value="a"> d) Captain America: Civil War</p>
+    <div class="options slab">
+        <p><input type="radio" value="a2" name="q2"> a) Guardians of the Galaxy: Vol.1</p>
+        <p><input type="radio" value="b2" name="q2"> b) The Avengers</p>
+        <p><input type="radio" value="c2" name="q2"> c) Thor: Ragnarok</p>
+        <p><input type="radio" value="d2" name="q2"> d) Captain America: Civil War</p>
     </div>
 
-    <div class="question">
+    <div class="slab">
         <b><u>Question-3</u></b> <br>
         <br>
         <b>In which movie does Tony Stark create a new element to power his suit and also discovers that his father, Howard Stark, had left him a message?</b>
     </div>
 
-    <div class="options">
-        <p><input type="radio" value="a"> a) Iron Man</p>
-        <p><input type="radio" value="a"> b) Iron Man 3</p>
-        <p><input type="radio" value="a"> c) The Avengers</p>
-        <p><input type="radio" value="a"> d) Captain America: The Winter Soldier</p>
+    <div class="options slab">
+        <p><input type="radio" value="a3" name="q3"> a) Iron Man</p>
+        <p><input type="radio" value="b3" name="q3"> b) Iron Man 2</p>
+        <p><input type="radio" value="c3" name="q3"> c) Iron Man 3</p>
+        <p><input type="radio" value="d3" name="q3"> d) Captain America: The Winter Soldier</p>
     </div>
 
-    <div class="question">
+    <div class="slab">
         <b><u>Question-4</u></b> <br>
         <br>
         <b>What is the name of the villain who manipulates Loki in the first Avengers movie?</b>
     </div>
 
-    <div class="options">
-        <p><input type="radio" value="a"> a) Baron Zemo</p>
-        <p><input type="radio" value="a"> b) Red Skull</p>
-        <p><input type="radio" value="a"> c) The Mandarin</p>
-        <p><input type="radio" value="a"> d) Thanos' Chitauri Commander</p>
+    <div class="options slab">
+        <p><input type="radio" value="a4" name="q4"> a) Baron Zemo</p>
+        <p><input type="radio" value="b4" name="q4"> b) Red Skull</p>
+        <p><input type="radio" value="c4" name="q4"> c) The Mandarin</p>
+        <p><input type="radio" value="d4" name="q4"> d) Thanos' Chitauri Commander</p>
     </div>
 
-    <div class="question">
+    <div class="slab">
         <b><u>Question-5</u></b> <br>
         <br>
         <b>Who sacrifices himself to obtain the Soul Stone on Vormir, in Avengers: Endgame?</b>
     </div>
 
-    <div class="options">
-        <p><input type="radio" value="a"> a) Hawkeye</p>
-        <p><input type="radio" value="a"> b) Black Widow</p>
-        <p><input type="radio" value="a"> c) Vision</p>
-        <p><input type="radio" value="a"> d) Gamora</p>
+    <div class="options slab">
+        <p><input type="radio" value="a5" name="q5"> a) Hawkeye</p>
+        <p><input type="radio" value="b5" name="q5"> b) Gamora</p>
+        <p><input type="radio" value="c5" name="q5"> c) Vision</p>
+        <p><input type="radio" value="d5" name="q5"> d) Black Widow</p>
     </div>
 
     <p style="text-align: center;">
-        <button type="submit" formtarget="_self"" class="PlayButton" style="vertical-align:middle">
-            <span><a href="ResultPage.html" id="playLink">
+        <button type="submit" formtarget="_self" class="PlayButton" style="vertical-align:middle" id="Submit">
+            <span>
                     
-                    Submit 
+                Submit 
     
-                </a></span>
+            </span>
         </button>
     </p>
 
+    <div class="result slab">
+        <p>
+            You got <span id="score">0</span> out 5 questions correct!
+            <br>
+            <span id="msg"></span> 
+        </p>
+    </div>
+
+    <p style="text-align: center;">
+        <a href="Home Page.html"> 
+            <button type="submit" formtarget="_self" class="PlayButton" style="vertical-align: middle;" id="HomePage">
+                <span>
+                    Home
+                </span>
+            </button>
+        </a>
+    </p>
+
+    <script src="JavaScript.js" charset="utf-8"></script>
 </body>
 </html>
