@@ -1,5 +1,5 @@
   #home {
-    background-image: url(../Images/Infinty\ Saga\ Background.jpeg);
+    background-image: url('./Infinty Saga Background.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
